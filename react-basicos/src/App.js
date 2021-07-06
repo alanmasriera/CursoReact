@@ -1,5 +1,8 @@
+import React from "react"
 import logo from './logo.svg';
 import './App.css';
+import Componente from "./components/Componente";
+import Propiedades from "./components/Propiedades";
 
 function App() {
   let nombre = "Alan"
@@ -11,7 +14,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <label htmlFor = "nombre"> nombre </label>
+          {/* <label htmlFor = "nombre"> nombre </label>
           <input type="text" id="nombre"/>
           <h1>{nombre}</h1>
           <p>{auth ? "El usuario esta logueado" : "El usuario no esta logueado"}</p>
@@ -19,7 +22,7 @@ function App() {
             {estaciones.map((el, index)=>(
               <li key={index}>{el}</li>
             ))}
-          </ul>
+          </ul> */}
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -31,6 +34,18 @@ function App() {
           >
             Learn React
           </a>
+          <Componente msg="Hola soy un componente desde una prop"/>
+          <hr />
+          <Propiedades 
+            cadena="Esto es una cadena de texto" 
+            numero={19}
+            booleano={true}
+            arreglo={[1,2,3]}
+            objeto = {{nombre:"Alan", correo: "alan.masriera@gmail.com"}}
+            funcion = {num => num * num}
+            elementoReact = {<i>Esto es un elemento React</i>}
+            componenteReact = {<Componente msg="Sou un componente pasado como prop"/>}
+            />
         </header>
       </div>
       <div></div>
