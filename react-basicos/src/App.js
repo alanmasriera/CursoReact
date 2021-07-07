@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from "./components/Componente";
 import Propiedades from "./components/Propiedades";
+import Estado from "./components/estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
 
 function App() {
   let nombre = "Alan"
@@ -46,6 +48,9 @@ function App() {
             elementoReact = {<i>Esto es un elemento React</i>}
             componenteReact = {<Componente msg="Sou un componente pasado como prop"/>}
             />
+          <hr/>
+          <Estado/>
+          <RenderizadoCondicional/>
         </header>
       </div>
       <div></div>
