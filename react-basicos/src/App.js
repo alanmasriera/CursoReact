@@ -6,6 +6,10 @@ import Propiedades from "./components/Propiedades";
 import Estado from "./components/estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
+import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
+import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
 
 function App() {
   let nombre = "Alan"
@@ -53,6 +57,12 @@ function App() {
           <Estado/>
           <RenderizadoCondicional/>
           <RenderizadoElementos/>
+          <EventosES6/>
+          <EventosES7/>
+          <MasSobreEventos/>
+          <ComunicacionComponentes/>
+          <CicloVida/>
+          <AjaxApis/>
         </header>
       </div>
       <div></div>
