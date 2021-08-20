@@ -1,0 +1,39 @@
+{
+  "Vehiculo": [
+    {
+      "id": 1,
+      "marca": "Yamaha",
+      "modelo": "WR",
+      "cilindrada": "450",
+      "tipo": "4t"
+    },
+    {
+      "id": 2,
+      "marca": "Yamaha",
+      "modelo": "WR",
+      "cilindrada": "2502",
+      "tipo": "4t"
+    },
+    {
+      "id": 3,
+      "marca": "Honda",
+      "modelo": "Tornado",
+      "cilindrada": "250",
+      "tipo": "4t"
+    },
+    {
+      "id": 4,
+      "marca": "Honda",
+      "modelo": "CRF",
+      "cilindrada": "450",
+      "tipo": "4t"
+    },
+    {
+      "id": 5,
+      "marca": "Yamaha",
+      "modelo": "YZ",
+      "cilindrada": "250",
+      "tipo": "2t"
+    }
+  ]
+}
